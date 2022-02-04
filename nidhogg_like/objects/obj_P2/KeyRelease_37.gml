@@ -11,8 +11,8 @@ if (!l2096B015_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 21D6EB9B
 	/// @DnDParent : 2096B015
-	/// @DnDArgument : "spriteind" "spr_P1_L"
-	/// @DnDSaveInfo : "spriteind" "spr_P1_L"
-	sprite_index = spr_P1_L;
+	/// @DnDArgument : "spriteind" "spr_P2_L"
+	/// @DnDSaveInfo : "spriteind" "spr_P2_L"
+	sprite_index = spr_P2_L;
 	image_index = 0;
 }

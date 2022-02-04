@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_P2_L",
-    "path": "sprites/spr_P2_L/spr_P2_L.yy",
+    "name": "spr_fist",
+    "path": "sprites/spr_fist/spr_fist.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_P2",
+  "name": "obj_fist",
   "tags": [],
   "resourceType": "GMObject",
 }

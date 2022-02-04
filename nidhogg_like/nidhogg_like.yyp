@@ -1,12 +1,12 @@
 {
   "resources": [
-    {"id":{"name":"obj_controler_players","path":"objects/obj_controler_players/obj_controler_players.yy",},"order":4,},
-    {"id":{"name":"obj_P2","path":"objects/obj_P2/obj_P2.yy",},"order":3,},
+    {"id":{"name":"obj_controler_players","path":"objects/obj_controler_players/obj_controler_players.yy",},"order":0,},
+    {"id":{"name":"obj_P2","path":"objects/obj_P2/obj_P2.yy",},"order":2,},
     {"id":{"name":"spr_P2_R_run","path":"sprites/spr_P2_R_run/spr_P2_R_run.yy",},"order":1,},
     {"id":{"name":"spr_fist","path":"sprites/spr_fist/spr_fist.yy",},"order":4,},
     {"id":{"name":"spr_P2_R","path":"sprites/spr_P2_R/spr_P2_R.yy",},"order":0,},
     {"id":{"name":"spr_P1_L_run","path":"sprites/spr_P1_L_run/spr_P1_L_run.yy",},"order":3,},
-    {"id":{"name":"obj_P1","path":"objects/obj_P1/obj_P1.yy",},"order":0,},
+    {"id":{"name":"obj_P1","path":"objects/obj_P1/obj_P1.yy",},"order":1,},
     {"id":{"name":"spr_P2_L_run","path":"sprites/spr_P2_L_run/spr_P2_L_run.yy",},"order":2,},
     {"id":{"name":"obj_Contoler_rm1","path":"objects/obj_Contoler_rm1/obj_Contoler_rm1.yy",},"order":1,},
     {"id":{"name":"spr_P1_R_run","path":"sprites/spr_P1_R_run/spr_P1_R_run.yy",},"order":1,},
@@ -15,8 +15,7 @@
     {"id":{"name":"spr_P1_L","path":"sprites/spr_P1_L/spr_P1_L.yy",},"order":2,},
     {"id":{"name":"spr_background1","path":"sprites/spr_background1/spr_background1.yy",},"order":0,},
     {"id":{"name":"spr_P1_R","path":"sprites/spr_P1_R/spr_P1_R.yy",},"order":0,},
-    {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},"order":3,},
-    {"id":{"name":"obj_fist","path":"objects/obj_fist/obj_fist.yy",},"order":4,},
+    {"id":{"name":"obj_fist","path":"objects/obj_fist/obj_fist.yy",},"order":3,},
     {"id":{"name":"spr_sol","path":"sprites/spr_sol/spr_sol.yy",},"order":3,},
     {"id":{"name":"rm_Game","path":"rooms/rm_Game/rm_Game.yy",},"order":0,},
   ],
@@ -53,6 +52,7 @@
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/P1.yy","order":1,"resourceVersion":"1.0","name":"P1","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/P2.yy","order":2,"resourceVersion":"1.0","name":"P2","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/players.yy","order":5,"resourceVersion":"1.0","name":"players","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

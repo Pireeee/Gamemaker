@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /// @DnDAction : YoYo Games.Common.Function
 /// @DnDVersion : 1
 /// @DnDHash : 4C7E6F4C
@@ -12,4 +13,11 @@ function scr_collide()
 	var l13BFE5F1_0 = layer_tilemap_get_id("Layer");
 	variable = undefined;
 	if(l13BFE5F1_0 > -1) variable = tilemap_get(l13BFE5F1_0, 0, 0);
+=======
+// // Script assets have changed for v2.3.0 see
+// // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+function hit(obj_fist_tmp,obj_who) 
+{
+	obj_fist_tmp.Who = obj_who;
+>>>>>>> parent of 6ac56d8... ??
 }

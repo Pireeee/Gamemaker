@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "isDnD": true,
+=======
+  "isDnD": false,
+>>>>>>> parent of 6ac56d8... ??
   "isCompatibility": false,
   "parent": {
     "name": "Scripts",

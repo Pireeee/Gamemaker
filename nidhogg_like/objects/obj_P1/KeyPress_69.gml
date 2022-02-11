@@ -17,4 +17,5 @@ obj_fist_tmp = instance_create_layer(x + 10, y + 10, "Instances", obj_fist);
 /// @DnDArgument : "script" "scr_hit"
 /// @DnDArgument : "arg" "obj_fist_tmp"
 /// @DnDArgument : "arg_1" "self"
+/// @DnDSaveInfo : "script" "scr_hit"
 script_execute(scr_hit, obj_fist_tmp, self);

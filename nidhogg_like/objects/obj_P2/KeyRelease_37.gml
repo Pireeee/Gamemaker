@@ -15,4 +15,11 @@ if (!l2096B015_0)
 	/// @DnDSaveInfo : "spriteind" "spr_P2_L"
 	sprite_index = spr_P2_L;
 	image_index = 0;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 1D5AB02A
+	/// @DnDParent : 2096B015
+	/// @DnDArgument : "var" "facing_P2"
+	facing_P2 = 0;
 }

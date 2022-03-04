@@ -16,5 +16,6 @@ script_execute(scr_movement);
 /// @DnDVersion : 1.1
 /// @DnDHash : 539549E9
 /// @DnDArgument : "script" "scr_sprite"
+/// @DnDArgument : "arg" ""P2""
 /// @DnDSaveInfo : "script" "scr_sprite"
-script_execute(scr_sprite);
+script_execute(scr_sprite, "P2");

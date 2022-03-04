@@ -16,5 +16,6 @@ script_execute(scr_sprite);
 /// @DnDVersion : 1.1
 /// @DnDHash : 3B4B5EED
 /// @DnDArgument : "script" "scr_collide"
+/// @DnDArgument : "arg" ""P1""
 /// @DnDSaveInfo : "script" "scr_collide"
-script_execute(scr_collide);
+script_execute(scr_collide, "P1");

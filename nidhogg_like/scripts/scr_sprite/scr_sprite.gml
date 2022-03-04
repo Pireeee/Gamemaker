@@ -3,8 +3,16 @@
 /// @DnDHash : 0A18ADF8
 /// @DnDComment : // Script assets have changed for v2.3.0 see$(13_10)// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 /// @DnDArgument : "funcName" "scr_sprite"
-function scr_sprite() 
+/// @DnDArgument : "arg" "color"
+function scr_sprite(color) 
 {
+	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+	/// @DnDVersion : 1
+	/// @DnDHash : 71BF9259
+	/// @DnDParent : 0A18ADF8
+	/// @DnDArgument : "msg" "color"
+	show_debug_message(string(color));
+
 	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
 	/// @DnDHash : 7E415FE1

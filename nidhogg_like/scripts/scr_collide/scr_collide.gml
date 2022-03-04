@@ -26,13 +26,12 @@ function scr_collide()
 	/// @DnDArgument : "msg" "tile_id"
 	show_debug_message(string(tile_id));
 
-	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
-	/// @DnDHash : 1F8A4BB1
+	/// @DnDHash : 4827CE43
 	/// @DnDParent : 24B56494
-	/// @DnDArgument : "var" "tile_id"
-	/// @DnDArgument : "op" "3"
-	if(tile_id <= 0)
+	/// @DnDArgument : "expr" "tile_id<=0 || tile_id == undefined"
+	if(tile_id<=0 || tile_id == undefined)
 	{
 		/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 		/// @DnDVersion : 1

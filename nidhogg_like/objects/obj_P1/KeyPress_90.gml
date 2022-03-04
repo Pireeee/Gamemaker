@@ -8,8 +8,8 @@ if(vspeed == 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 52BE53D6
 	/// @DnDParent : 216FF4E9
-	/// @DnDArgument : "value" "-12"
+	/// @DnDArgument : "value" "-1"
 	/// @DnDArgument : "value_relative" "1"
 	/// @DnDArgument : "instvar" "5"
-	vspeed += -12;
+	vspeed += -1;
 }

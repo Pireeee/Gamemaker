@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+/// @DnDVersion : 1
+/// @DnDHash : 4473B7FC
+/// @DnDArgument : "msg" "Who"
+show_debug_message(string(Who));
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 5B6C869A

@@ -10,12 +10,12 @@ function scr_collide()
 	/// @DnDParent : 24B56494
 	/// @DnDArgument : "var" "tile_id"
 	/// @DnDArgument : "layername" ""ts_tileset""
-	/// @DnDArgument : "x" "floor( (x) /22 )"
-	/// @DnDArgument : "y" "floor( (y+60) /24 )"
+	/// @DnDArgument : "x" "floor( (x) /24 )"
+	/// @DnDArgument : "y" "floor( (y) /22 )"
 	var l05699486_0 = layer_tilemap_get_id("ts_tileset");
 	tile_id = undefined;
 	if(l05699486_0 > -1) {
-		var l05699486_1 = tilemap_get(l05699486_0, floor( (x) /22 ), floor( (y+60) /24 ));
+		var l05699486_1 = tilemap_get(l05699486_0, floor( (x) /24 ), floor( (y) /22 ));
 		if(l05699486_1 > -1) tile_id = tile_get_index(l05699486_1);
 	}
 

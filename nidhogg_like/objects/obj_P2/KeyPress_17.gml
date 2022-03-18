@@ -1,21 +1,52 @@
-/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1
-/// @DnDHash : 4A707E7E
-/// @DnDArgument : "xpos" "facing*15"
-/// @DnDArgument : "xpos_relative" "1"
-/// @DnDArgument : "ypos" "-40"
-/// @DnDArgument : "ypos_relative" "1"
-/// @DnDArgument : "var" "obj_fist_tmp"
-/// @DnDArgument : "objectid" "obj_fist_P1"
-/// @DnDSaveInfo : "objectid" "obj_fist_P1"
-obj_fist_tmp = instance_create_layer(x + facing*15, y + -40, "Instances", obj_fist_P1);
+/// @DnDHash : 585641A8
+/// @DnDArgument : "msg" "hspeed"
+show_debug_message(string(hspeed));
 
-/// @DnDAction : YoYo Games.Common.Execute_Script
-/// @DnDVersion : 1.1
-/// @DnDHash : 41FC5689
-/// @DnDInput : 2
-/// @DnDArgument : "script" "scr_hit"
-/// @DnDArgument : "arg" "obj_fist_tmp"
-/// @DnDArgument : "arg_1" "self"
-/// @DnDSaveInfo : "script" "scr_hit"
-script_execute(scr_hit, obj_fist_tmp, self);
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3C00EA76
+/// @DnDArgument : "var" "vspeed"
+/// @DnDArgument : "op" "3"
+if(vspeed <= 0)
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 6AC18BD8
+	/// @DnDParent : 3C00EA76
+	/// @DnDArgument : "var" "facing_P2"
+	if(facing_P2 == 0)
+	{
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 527769F7
+		/// @DnDParent : 6AC18BD8
+		/// @DnDArgument : "xpos" "10"
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos" "-40"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "obj_fist_P2"
+		/// @DnDSaveInfo : "objectid" "obj_fist_P2"
+		instance_create_layer(x + 10, y + -40, "Instances", obj_fist_P2);
+	}
+
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 55B9D9D6
+	/// @DnDParent : 3C00EA76
+	else
+	{
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 78EFE368
+		/// @DnDParent : 55B9D9D6
+		/// @DnDArgument : "xpos" "-27"
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos" "-40"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "obj_fist_P2"
+		/// @DnDSaveInfo : "objectid" "obj_fist_P2"
+		instance_create_layer(x + -27, y + -40, "Instances", obj_fist_P2);
+	}
+}

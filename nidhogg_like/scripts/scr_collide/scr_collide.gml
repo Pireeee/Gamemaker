@@ -19,13 +19,6 @@ function scr_collide()
 		if(l05699486_1 > -1) tile_id = tile_get_index(l05699486_1);
 	}
 
-	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-	/// @DnDVersion : 1
-	/// @DnDHash : 209FAAC1
-	/// @DnDParent : 24B56494
-	/// @DnDArgument : "msg" "tile_id"
-	show_debug_message(string(tile_id));
-
 	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
 	/// @DnDHash : 4827CE43

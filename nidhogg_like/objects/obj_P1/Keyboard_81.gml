@@ -5,9 +5,3 @@
 /// @DnDArgument : "value_relative" "1"
 /// @DnDArgument : "instvar" "4"
 hspeed += -0.2;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 0B5B3FDB
-/// @DnDArgument : "var" "facing"
-facing = 0;

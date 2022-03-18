@@ -6,9 +6,9 @@
 /// @DnDArgument : "ypos" "-40"
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "var" "obj_fist_tmp"
-/// @DnDArgument : "objectid" "obj_fist"
-/// @DnDSaveInfo : "objectid" "obj_fist"
-obj_fist_tmp = instance_create_layer(x + facing*15, y + -40, "Instances", obj_fist);
+/// @DnDArgument : "objectid" "obj_fist_P1"
+/// @DnDSaveInfo : "objectid" "obj_fist_P1"
+obj_fist_tmp = instance_create_layer(x + facing*15, y + -40, "Instances", obj_fist_P1);
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1

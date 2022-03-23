@@ -1,15 +1,9 @@
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 585641A8
-/// @DnDArgument : "msg" "hspeed"
-show_debug_message(string(hspeed));
-
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3C00EA76
-/// @DnDArgument : "var" "vspeed"
+/// @DnDArgument : "var" "hspeed"
 /// @DnDArgument : "op" "3"
-if(vspeed <= 0)
+if(hspeed <= 0)
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1

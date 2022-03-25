@@ -19,13 +19,6 @@ function scr_collide()
 		if(l05699486_1 > -1) tile_id = tile_get_index(l05699486_1);
 	}
 
-	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-	/// @DnDVersion : 1
-	/// @DnDHash : 00474D0B
-	/// @DnDParent : 24B56494
-	/// @DnDArgument : "msg" "tile_id"
-	show_debug_message(string(tile_id));
-
 	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
 	/// @DnDHash : 4827CE43
@@ -37,9 +30,9 @@ function scr_collide()
 		/// @DnDVersion : 1
 		/// @DnDHash : 22EFF995
 		/// @DnDParent : 4827CE43
-		/// @DnDArgument : "value" "0.01"
+		/// @DnDArgument : "value" "0.030"
 		/// @DnDArgument : "instvar" "19"
-		gravity = 0.01;
+		gravity = 0.030;
 	}
 
 	/// @DnDAction : YoYo Games.Common.Else

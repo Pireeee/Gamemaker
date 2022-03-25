@@ -1,6 +1,5 @@
 {
   "resources": [
-    {"id":{"name":"obj_controler_players","path":"objects/obj_controler_players/obj_controler_players.yy",},"order":0,},
     {"id":{"name":"obj_P2","path":"objects/obj_P2/obj_P2.yy",},"order":2,},
     {"id":{"name":"scr_collide","path":"scripts/scr_collide/scr_collide.yy",},"order":1,},
     {"id":{"name":"win","path":"sprites/win/win.yy",},"order":6,},

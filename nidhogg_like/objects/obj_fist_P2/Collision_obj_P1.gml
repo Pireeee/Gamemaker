@@ -4,7 +4,8 @@
 /// @DnDApplyTo : other
 /// @DnDArgument : "var" "P1_Lives"
 /// @DnDArgument : "op" "2"
-with(other) var l0FA9FEF9_0 = P1_Lives > 0;
+/// @DnDArgument : "value" "1"
+with(other) var l0FA9FEF9_0 = P1_Lives > 1;
 if(l0FA9FEF9_0)
 {
 	/// @DnDAction : YoYo Games.Common.Variable

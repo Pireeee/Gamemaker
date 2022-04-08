@@ -8,17 +8,28 @@
 with(other) var l517EFAF9_0 = P2_Lives > 1;
 if(l517EFAF9_0)
 {
-	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 2E6C9CD1
+	/// @DnDHash : 7C37C220
 	/// @DnDApplyTo : other
 	/// @DnDParent : 517EFAF9
-	/// @DnDArgument : "expr" "-1"
-	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "P2_Lives"
-	with(other) {
-	P2_Lives += -1;
-	
+	/// @DnDArgument : "var" "P2_vulnerable"
+	/// @DnDArgument : "value" "1"
+	with(other) var l7C37C220_0 = P2_vulnerable == 1;
+	if(l7C37C220_0)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 2E6C9CD1
+		/// @DnDApplyTo : other
+		/// @DnDParent : 7C37C220
+		/// @DnDArgument : "expr" "-1"
+		/// @DnDArgument : "expr_relative" "1"
+		/// @DnDArgument : "var" "P2_Lives"
+		with(other) {
+		P2_Lives += -1;
+		
+		}
 	}
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance

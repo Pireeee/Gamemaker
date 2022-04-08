@@ -64,10 +64,3 @@ function scr_collide()
 		y = y;
 	}
 }
-
-/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
-/// @DnDVersion : 1
-/// @DnDHash : 772F6E20
-/// @DnDArgument : "value" "0.01"
-/// @DnDArgument : "instvar" "19"
-gravity = 0.01;
